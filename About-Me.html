@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <link href="./About-Me.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="icon" href="./Images/favicon_io/favicon.ico">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<meta charset="utf-8"/>
+	<title>About Raj Likhari</title>
+</head>
+
+
+<!--This is the flipping menu bar-->
+<ul class="block-menu">
+	<li><a href="./index.html" class="three-d">
+		HOME
+		<span aria-hidden="true" class="three-d-box">
+			<span class="front">HOME</span>
+			<span class="back">HOME</span>
+		</span>
+	</a></li>
+	<li><a href="./About-Me.html" class="three-d">
+		ABOUT ME
+		<span aria-hidden="true" class="three-d-box">
+			<span class="front">ABOUT ME</span>
+			<span class="back">ABOUT ME</span>
+		</span>
+	</a></li>
+	<li><a href="./Skills.html" class="three-d">
+		SKILLS
+		<span aria-hidden="true" class="three-d-box">
+			<span class="front">SKILLS</span>
+			<span class="back">SKILLS</span>
+		</span>
+	</a></li>
+	<li><a href="./Exp.html" class="three-d">
+		EXPERIENCE
+		<span aria-hidden="true" class="three-d-box">
+			<span class="front">EXPERIENCE</span>
+			<span class="back">EXPERIENCE</span>
+		</span>
+    </a></li>
+    <li><a href="./Photo.html" class="three-d">
+		PHOTOGRAPHY
+		<span aria-hidden="true" class="three-d-box">
+			<span class="front">PHOTOGRAPHY</span>
+			<span class="back">PHOTOGRAPHY</span>
+		</span>
+	</a></li>
+</ul>
+<body>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	  setTimeout(function () { AOS.init(); }, 1000);
+	  </script>
+<!--Grid Creation-->
+<div class="aboutme-container">
+	<div class="page1">
+	<!--Header-->
+		<div class="intro-container">
+			<div class="left-container">
+				<h1>ABOUT</h1>
+			</div>
+			<div class="right-container">
+				<h1>RAJ</h1>
+			</div>
+		</div>
+	</div>
+	<div class="page2">
+	<!--About Me Section-->
+		<div class="content-container">
+			<div class="left-content-container">
+				<img class="aboutmeslides" src="Images/RajL.jpg">
+				<img class="aboutmeslides" src="Images/MnD.jpg">
+				<img class="aboutmeslides" src="Images/RajnVaish.jpg">
+			</div>
+			<div class="right-content-container">
+				<ul>
+					<li data-aos="fade-left" id="right-content-header">About Me<li>				
+					<li id="right-content-body">Hi there! My name is Raj Likhari, I am an aspiring computer engineer, aggie student, and an iPhone photographer. Currently, I’m a junior at Texas A&M University – College station majoring in Computer Engineering with a focus on Electrical. Some of my interests are nanotechnology, computer hardware, and IoT. Also, I have an interest in Cloud Computing, I am currently certified in both AZ-204: Azure Developer Associate and AZ-900: Azure Fundamentals, I hope to expand my skills to AWS and Google Cloud. Some of my hobbies include taking and editing pictures, staying up to date with the latest technology, and thinking of projects that I could use to help some modern-day problems! One day, I hope to work at a company where I can build and develop the software for new-age computer processors and hardware, till then ill keep building my skills. Thanks for visiting my website and stay awhile!</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="page3">
+		<div class="contact-container">
+			<div class="left-contact-container">
+				<h2 data-aos="fade-right" id="left-contact-header">Lets Connect!</h2>
+			</div>
+			<div class="right-contact-container">
+				<a href="https://www.linkedin.com/in/rajlikhari"><img class="left-contact-png" src="./Images/linked.png"></a>
+				<a href="https://www.instagram.com/sikhmemephotography/"><img class="left-contact-png" src="./Images/insta.png"></a>
+				<a href="https://github.com/SikhMeme"><img class="left-contact-png" src="./Images/Octocat.png"></a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+<!--Code to Run Images-->
+<script>
+    var slideIndex = 0;
+        imageslider();
+
+        function imageslider() {
+            var i;
+            var x = document.getElementsByClassName("aboutmeslides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+         }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(imageslider, 3000); // Change image every 4 seconds    
+    }
+    </script>
+
+
+
+
+
+

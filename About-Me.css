@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/*First Page*/
+.aboutme-container{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(2, 100vh) 20vh;
+	height: 220vh;
+	width: 100%;
+}
+
+.intro-container{
+	display: flex;
+	background-color: #eee;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	justify-content: start;
+	align-items: center;
+}
+
+.left-container{
+	display: flex;
+	width: 50%;
+	height: 100%;
+	background-color: #E9E9E9;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	color: #88BBD6;
+	text-shadow: 2px 2px #A9A9A9;
+	
+	
+}
+
+.right-container{
+	display:flex;
+	width: 50%;
+	height: 100%;
+	background-color:   #88BBD6;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	color: #E9E9E9;
+	text-shadow: 2px 2px #A9A9A9;
+	
+}
+
+@media only screen and (max-width: 1000px){
+	.left-container, .right-container{
+		font-size: 40px;
+	}	
+}
+@media only screen and (max-height: 700px){
+	.left-container, .right-container{
+		font-size: 30px;
+	}	
+}
+
+/*Second Page*/
+.content-container{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: #eee;
+	overflow: hidden;
+
+}
+
+.left-content-container{
+	display: flex;
+	height: 100%;
+	width: 50%;
+	background-color: #88BBd6;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.left-content-container img{
+	height: 90%;
+	width: 90%;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 2000px){
+	.left-content-container img{
+		height: auto;
+		width: 90%;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-height: 1500px){
+	.left-content-container img{
+		height: 75%;
+		width: auto;
+		padding-left: 10px;
+	}
+}
+
+
+.right-content-container{
+	display: flex;
+	height: 100%;
+	width: 50%;
+	background-color: #E9E9E9;
+	justify-content: center;
+	text-align: center;
+	overflow: auto;
+}
+
+.right-content-container li{
+	list-style: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#right-content-header{
+	font-family: 'Economica',sans-serif;
+	font-size: 90px;
+	text-decoration: underline;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+
+#right-content-body{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 1500px){
+	#right-content-header{
+		font-family: 'Economica',sans-serif;
+		font-size: 70px;
+		text-decoration: underline;
+		margin-bottom: 80px;
+		margin-top: 20px;
+	}
+	
+	#right-content-body{
+		font-family: 'Montserrat',sans-serif;
+		font-size: 25px;
+	}
+	
+}
+
+
+
+
+
+/*This is the contact area*/
+.contact-container{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: start;
+}
+
+.right-contact-container{
+	display: flex;
+	height: 100%;
+	width: 50%;
+	background-color: #88BBd6;
+	align-items: center;
+	justify-content: end;
+}
+
+.right-contact-container img{
+	height: auto;
+	width: 45%;
+	position: relative;
+	left: 35%;
+	
+}
+
+.right-contact-container img:hover{
+	height: auto;
+	width: 55%;
+	position: relative;
+	left: 30%;
+}
+
+.left-contact-container{
+	display: flex;
+	height: 100%;
+	width: 50%;
+	background-color: #E9E9E9;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Economica', sans-serif;
+	font-size: 50px;
+	text-decoration: underline;
+}	
+
+#left-contact-header{
+	font-weight: lighter;
+}
+
+@media only screen and (max-width: 1500px){
+	.left-contact-container{
+		display: flex;
+		height: 100%;
+		width: 50%;
+		background-color: #E9E9E9;
+		align-items: center;
+		justify-content: center;
+		font-family: 'Economica', sans-serif;
+		font-size: 40px;
+	}	
+}
+
+@media only screen and (max-height: 900px){
+	.right-contact-container img{
+		height: auto;
+		width: 15%;
+		position: relative;
+		left: 35%;
+	}
+	.left-contact-container{
+		display: flex;
+		height: 100%;
+		width: 50%;
+		background-color: #E9E9E9;
+		align-items: center;
+		justify-content: center;
+		font-family: 'Economica', sans-serif;
+		font-size: 20px;
+	}	
+
+}
+
+
+
+/*This is the Menu Bar*/
+.block-menu {
+	display: block;
+    background:  #E9E9E9;
+    width: auto;
+	text-align: center;
+}
+
+.block-menu li {
+	display: inline-block;
+}
+
+.block-menu li a {
+	color: black;
+	display: block;
+	text-decoration: none;
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
+	overflow: visible;
+	line-height: 20px;
+	font-size: 40px;
+    padding: 15px 10px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* animation domination */
+.three-d {
+	perspective: 200px;
+	transition: all .07s linear;
+	position: relative;
+	cursor: pointer;
+}
+	/* complete the animation! */
+	.three-d:hover .three-d-box, 
+	.three-d:focus .three-d-box {
+		transform: translateZ(-25px) rotateX(90deg);
+	}
+
+.three-d-box {
+	transition: all .3s ease-out;
+	transform: translatez(-25px);
+	transform-style: preserve-3d;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.front {
+	transform: rotatex(0deg) translatez(25px);
+}
+
+.back {
+	transform: rotatex(-90deg) translatez(25px);
+	color: black;
+}
+
+.front, .back {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #E9E9E9;
+	padding: 15px 10px;
+	color: #88BBD6;
+	pointer-events: none;
+    box-sizing: border-box;
+}
+
