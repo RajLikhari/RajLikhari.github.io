@@ -382,13 +382,13 @@
 
 .marquee:before {
     left: 0;
-    background: linear-gradient(to right, #E9E9E9 0%, transparent 100%);
+    background-image: linear-gradient(to right, #E9E9E9, transparent 100%);
 
 }
 
 .marquee:after {
     right: 0;
-    background: linear-gradient(to left, #E9E9E9 0%, transparent 100%);
+    background-image: linear-gradient(to left, #E9E9E9, transparent 100%);
     
 }
 

@@ -203,7 +203,7 @@
 	font-weight: lighter;
 }
 
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1300px){
 	.left-contact-container{
 		display: flex;
 		height: 100%;
