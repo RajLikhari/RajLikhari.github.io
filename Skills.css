@@ -163,41 +163,6 @@
 	font-weight: bolder;
 }
 
-
-@media only screen and (max-width: 1500px){
-	.box-1-text li{
-		font-size: 24px;
-		list-style: none;
-		text-align: center;
-		font-family: 'Montserrat',sans-serif;
-		margin-bottom: 10px;
-	}
-	
-	#box-1-header{
-		font-family: 'Economica',sans-serif;
-		font-size: 40px;
-		text-decoration: underline;
-		margin-bottom: 20px;
-	}
-}
-
-@media only screen and (max-height: 900px){
-	.box-1-text li{
-		font-size: 15px;
-		list-style: none;
-		text-align: center;
-		font-family: 'Montserrat',sans-serif;
-		margin-bottom: 10px;
-	}
-	
-	#box-1-header{
-		font-family: 'Economica',sans-serif;
-		font-size: 30px;
-		text-decoration: underline;
-		margin-bottom: 20px;
-	}
-}
-
 .box-2{
 	display: flex;
 	justify-content: center;
@@ -220,36 +185,6 @@
 	font-size: 50px;
 	text-decoration: underline;
 	margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 1500px){
-	.box-2-text li{
-		font-size: 20px;
-		list-style: none;
-		text-align: center;
-		font-family: 'Montserrat',sans-serif;
-	}
-	
-	#box-2-header{
-		font-family: 'Economica',sans-serif;
-		font-size: 40px;
-		text-decoration: underline;
-	}
-}
-
-@media only screen and (max-height: 850px){
-	.box-2-text li{
-		font-size: 15px;
-		list-style: none;
-		text-align: center;
-		font-family: 'Montserrat',sans-serif;
-	}
-	
-	#box-2-header{
-		font-family: 'Economica',sans-serif;
-		font-size: 30px;
-		text-decoration: underline;
-	}
 }
 
 .box-3{
@@ -277,37 +212,6 @@
 	text-align: center;
 	font-family: 'Montserrat',sans-serif;
 	padding: 20px;
-}
-
-@media only screen and (max-width: 1500px){
-	#box-3-textb{
-		font-size: 20px;
-		list-style: none;
-		text-align: center;
-		font-family: 'Montserrat',sans-serif;
-	}
-	
-	#box-3-texth{
-		font-family: 'Economica',sans-serif;
-		font-size: 40px;
-		text-decoration: underline;
-	}
-}
-
-
-@media only screen and (max-height: 850px){
-	.box-2-text li{
-		font-size: 15px;
-		list-style: none;
-		text-align: center;
-		font-family: 'Montserrat',sans-serif;
-	}
-	
-	#box-2-header{
-		font-family: 'Economica',sans-serif;
-		font-size: 30px;
-		text-decoration: underline;
-	}
 }
 
 
