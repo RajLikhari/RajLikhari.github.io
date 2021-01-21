@@ -203,40 +203,6 @@
 	font-weight: lighter;
 }
 
-@media only screen and (max-width: 1300px){
-	.left-contact-container{
-		display: flex;
-		height: 100%;
-		width: 50%;
-		background-color: #E9E9E9;
-		align-items: center;
-		justify-content: center;
-		font-family: 'Economica', sans-serif;
-		font-size: 40px;
-	}	
-}
-
-@media only screen and (max-height: 900px){
-	.right-contact-container img{
-		height: auto;
-		width: 15%;
-		position: relative;
-		left: 35%;
-	}
-	.left-contact-container{
-		display: flex;
-		height: 100%;
-		width: 50%;
-		background-color: #E9E9E9;
-		align-items: center;
-		justify-content: center;
-		font-family: 'Economica', sans-serif;
-		font-size: 20px;
-	}	
-
-}
-
-
 
 /*This is the Menu Bar*/
 .block-menu {
