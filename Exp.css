@@ -201,7 +201,6 @@
 
 #exp-page2-right-link{
     text-decoration: none;
-    font-style: italic;
     color: black;
     font-size: 25px;
 }
@@ -237,7 +236,6 @@
     }
     #exp-page2-right-link{
         text-decoration: none;
-        font-style: italic;
         color: black;
         font-size: 20px;
     }
@@ -248,6 +246,7 @@
         color: #E9E9E9;
         font-size: 21px;
         text-decoration: underline;
+
     }
 }
 
