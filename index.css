@@ -38,6 +38,13 @@
 
 }
 
+
+@media only screen and (max-width: 1500px){
+    .frontpage-text{
+        font-size: 35px;
+    }
+}
+
 @media only screen and (max-width: 1100px){
     .frontpage-text{
         background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
