@@ -4,6 +4,32 @@
     padding: 0px;
 }
 
+@media screen and (orientation:landscape) {
+    .hidden-MSG h1{
+        display: flex;
+        visibility: visible;
+        position: absolute;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 60px;
+        color: black;
+        z-index: 5;
+        left: 11%;
+    }
+    body{
+        visibility: hidden;
+        background-image: url("../Images/Rotate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #88bbd6;
+        margin-top: 50px;
+    }
+}
+
+.hidden-MSG{
+    font-size: 0px;
+    z-index: -2;
+}
+
 .frontpage-image{
     height: 100vh;
     width: 100vw;
