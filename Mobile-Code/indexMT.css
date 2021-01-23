@@ -81,10 +81,11 @@
     width: auto;
     text-align: center;
     opacity: 0.5;
+    margin-top: 5px;
 }
 
 .block-menu li {
-	display: inline-block;
+    display: inline-block;
 }
 
 .block-menu li a {
