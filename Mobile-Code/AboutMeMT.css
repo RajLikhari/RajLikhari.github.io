@@ -95,16 +95,16 @@ img {
 
 .box3-flex1{
     display: flex;
-    height: 25%;
+    height: 40%;
     width: 100%;
 }
 
 .box3-content4{
     display: flex;
     align-self: center;
-    transform: translateX(105%);
+    transform: translateX(90%);
     font-family: 'Economica',sans-serif;
-    font-size: 450%;
+    font-size: 500%;
     text-decoration: underline;
 
 }
@@ -113,7 +113,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100%;
-    height: 75%;
+    height: 60%;
     width: 100%;
 }
 
