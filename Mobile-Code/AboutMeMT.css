@@ -88,7 +88,7 @@ img {
 
 #box2-body{
     font-family: 'Montserrat',sans-serif;
-    font-size: 1.78vh;
+    font-size: 1.80vh;
     padding: 40px;
 }
 
@@ -102,7 +102,7 @@ img {
 .box3-content4{
     display: flex;
     align-self: center;
-    transform: translateX(115%);
+    transform: translateX(105%);
     font-family: 'Economica',sans-serif;
     font-size: 450%;
     text-decoration: underline;
