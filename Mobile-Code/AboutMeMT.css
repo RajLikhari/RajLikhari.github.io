@@ -110,7 +110,7 @@ img {
 .box3-content4{
     display: flex;
     align-self: center;
-    transform: translateX(85%);
+    transform: translateX(90%);
     font-family: 'Economica',sans-serif;
     font-size: 500%;
     text-decoration: underline;
