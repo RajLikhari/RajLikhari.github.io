@@ -86,12 +86,20 @@ img {
     margin-top: 40px;
 }
 
+.box2-intro{
+    margin-top: 20px;
+    font-family: 'Economica',sans-serif;
+    font-size: 300%;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
 #box2-body{
     font-family: 'Montserrat',sans-serif;
     font-size: 1.80vh;
-    padding: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
 
 .box3-flex1{
     display: flex;
@@ -102,7 +110,7 @@ img {
 .box3-content4{
     display: flex;
     align-self: center;
-    transform: translateX(90%);
+    transform: translateX(85%);
     font-family: 'Economica',sans-serif;
     font-size: 500%;
     text-decoration: underline;
