@@ -20,7 +20,7 @@
         background-image: url("../Images/Rotate.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-color: #88bbd6;
+        background-color: rgba(0,0,0, 0.4);
         margin-top: 50px;
     }
 }
