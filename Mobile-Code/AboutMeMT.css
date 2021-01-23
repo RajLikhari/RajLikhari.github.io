@@ -15,12 +15,38 @@
 }
 
 .box1{
-    background-color: blue;
+    display: flex;
+    background:  #E9E9E9;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Economica',sans-serif;
+    font-size: 140px;
+    color: #88bbd6;
+    text-shadow: 4px 4px #A9A9A9;
+    overflow: hidden;
+    font-style: italic;
 }
 
 .box2{
-    background-color: blueviolet;
+    background-color: #88bbd6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+
+img {
+    height: 85%;
+    width: 85%;
+    margin-top: 15px;
+}
+
+#box2-body{
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+    padding: 30px;
+}
+
 
 .box3{
     background-color: burlywood;
@@ -30,10 +56,9 @@
 /*This is the menu code*/   
 .block-menu {
 	display: block;
-    background: #eee;
+    background:  #E9E9E9;
     width: auto;
     text-align: center;
-    opacity: 0.5;
 }
 
 .block-menu li {
@@ -96,9 +121,9 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #eee;
+	background: #E9E9E9;
 	padding: 15px 10px;
-	color: black;
+	color: #88BBD6;
 	pointer-events: none;
     box-sizing: border-box;
 }
