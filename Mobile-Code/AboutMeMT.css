@@ -55,8 +55,8 @@
 .grid-container{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 48vh 100vh 50vh;
-    height: 198vh;
+    grid-template-rows: 48vh 100vh 20vh;
+    height: 168vh;
     width: 100vw;
 }
 
@@ -66,7 +66,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Economica',sans-serif;
-    font-size: 120px;
+    font-size: 750%;
     color: #88bbd6;
     text-shadow: 4px 4px #A9A9A9;
     overflow: hidden;
@@ -88,45 +88,53 @@ img {
 
 #box2-body{
     font-family: 'Montserrat',sans-serif;
-    margin-top: 50px;
-    font-size: 37px;
-    padding: 30px;
-
+    font-size: 1.78vh;
+    padding: 40px;
 }
 
 
-.box3{
+.box3-flex1{
     display: flex;
-    background-color: #e9e9e9;
-    justify-content: space-around;
-    
+    height: 25%;
+    width: 100%;
 }
 
-li {
-    list-style: none;
-    text-align: center;
-}
-
-.box3-Img1{
-    height: 20%;
-    width: 30%;
-    margin-left: 36%;
-    margin-top: 50px;
+.box3-content4{
+    display: flex;
+    align-self: center;
+    transform: translateX(115%);
+    font-family: 'Economica',sans-serif;
+    font-size: 450%;
+    text-decoration: underline;
 
 }
 
-.box3-Img2{
-    height: 35%;
-    width: 40%;
-    margin-left: 30%;
-
+.box3-grid1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100%;
+    height: 75%;
+    width: 100%;
 }
 
-.box3-Img3{
-    height: 28%;
-    width: 40%;
-    margin-left: 31%;
+.box3-content1{
+    background-image: url("../Images/linked.png");
+    background-position: center;
+    background-size: cover;
+}
 
+.box3-content2{
+    background-image: url("../Images/insta.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3-content3{
+    background-image: url("../Images/Octocat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #box3-header{
