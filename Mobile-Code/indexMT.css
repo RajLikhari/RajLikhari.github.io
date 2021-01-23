@@ -9,18 +9,19 @@
         display: flex;
         visibility: visible;
         position: absolute;
-        font-family: 'Montserrat',sans-serif;
-        font-size: 60px;
+        font-family: 'Economica',sans-serif;
+        font-size: 80px;
         color: black;
         z-index: 5;
-        left: 11%;
+        left: 18%;
+        margin-top: -50px;
     }
     body{
         visibility: hidden;
         background-image: url("../Images/Rotate.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-color: rgba(0,0,0, 0.5);
+        background-color: rgba(105,105,105, 0.4);
         margin-top: 100px;
         z-index: 10;
     }
@@ -81,7 +82,6 @@
     width: auto;
     text-align: center;
     opacity: 0.5;
-    margin-top: 5px;
 }
 
 .block-menu li {
