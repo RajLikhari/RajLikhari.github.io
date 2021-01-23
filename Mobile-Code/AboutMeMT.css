@@ -5,6 +5,46 @@
     scroll-behavior: smooth;
 }
 
+@media only screen and (orientation:landscape) {
+    .hidden-MSG h1{
+        display: flex;
+        visibility: visible;
+        position: absolute;
+        font-family: 'Economica',sans-serif;
+        font-size: 80px;
+        color: black;
+        z-index: 5;
+        left: 18%;
+        margin-top: -30px;
+    }
+    body{
+        visibility: hidden;
+        background-image: url("../Images/Rotate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(105,105,105, 0.4);
+        margin-top: -800px;
+        z-index: 10;
+    }
+    .block-menu{
+        visibility: hidden;
+    }
+    .block-menu li a{
+        visibility: hidden;
+    }
+    .front, .back{
+        visibility: hidden;
+    }
+    .three-d{
+        visibility: hidden;
+    }
+}
+
+.hidden-MSG{
+    font-size: 0px;
+    z-index: -2;
+}
+
 /*Grid Creation*/
 .grid-container{
     display: grid;

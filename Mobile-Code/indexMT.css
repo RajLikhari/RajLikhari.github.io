@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-@media screen and (orientation:landscape) {
+@media only screen and (orientation:landscape) {
     .hidden-MSG h1{
         display: flex;
         visibility: visible;
