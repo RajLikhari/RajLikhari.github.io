@@ -47,12 +47,16 @@
     z-index: -2;
 }
 
+#menu-Mar{
+    margin-top: 20px;
+}
+
 /*Grid Creation*/
 .grid-container{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 50vh 100vh 50vh;
-    height: 200vh;
+    grid-template-rows: 48vh 100vh 50vh;
+    height: 198vh;
     width: 100vw;
 }
 
@@ -161,7 +165,7 @@ li {
 
 /* animation domination */
 .three-d {
-	perspective: 400px;
+	perspective: 200px;
 	transition: all .07s linear;
 	position: relative;
 	cursor: pointer;
