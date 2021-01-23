@@ -133,14 +133,14 @@ img {
 }
 
 .box3-content2{
-    background-image: url("../Images/insta.png");
+    background-image: url("../Images/Octocat.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
 .box3-content3{
-    background-image: url("../Images/Octocat.png");
+    background-image: url("../Images/insta.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
