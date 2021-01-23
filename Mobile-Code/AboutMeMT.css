@@ -2,8 +2,29 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
+/*Grid Creation*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 50vh 100vh 50vh;
+    height: 200vh;
+    width: 100vw;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: burlywood;
+}
 
 
 /*This is the menu code*/   
@@ -13,7 +34,6 @@
     width: auto;
     text-align: center;
     opacity: 0.5;
-    margin-top: 5px;
 }
 
 .block-menu li {
