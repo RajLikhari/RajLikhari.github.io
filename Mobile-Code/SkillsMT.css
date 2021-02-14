@@ -56,8 +56,8 @@
 .grid-creation{
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 48vh 80vh 100vh 100vh;
-	height: 328vh;
+	grid-template-rows: 48vh 80vh 60vh 100vh;
+	height: 288vh;
 	width: 100%;
 }
 
@@ -132,11 +132,157 @@
 
 /*Skills Section*/
 .skills-grid{
-	background-color: #E9E9E9;
-    display: flex;
+    display: grid;
     height: 100%;
     width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
 }
+
+.skills-grid-1{
+    background-color: #E9E9E9;
+}
+#skills-header{
+    font-family: 'Economica',sans-serif;
+    font-size: 500%;
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
+.skills-text li{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 280%;
+}
+
+
+/*Slider for the skills*/
+.skills-content-slider{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: #E9E9E9;
+	align-items: center;
+	justify-content: center;
+}
+
+.marquee{
+	width: 90%;
+	height: 80%;
+	overflow: hidden;
+	position: relative;
+}
+
+.marquee:before, .marquee:after{
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.marquee:before {
+    left: 0;
+	background: -webkit-linear-gradient(to right, #E9E9E9 0%, transparent 100%);
+}
+
+.marquee:after {
+    right: 0;
+    background: -webkit-linear-gradient(to right, #E9E9E9 0%, transparent 100%);
+}
+
+.marquee-content {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 20s linear infinite;
+}
+
+
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% {transform: translateX(-223vw); }
+}
+
+.marquee-content li {
+    width: 25%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+	align-items: center;   
+}
+
+#png1{
+	background-image: url("../Images/C++.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#png2{
+	background-image: url("../Images/azure.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#png3{
+	background-image: url("../Images/java.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#png4{
+	background-image: url("../Images/Python.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+#png5{
+	background-image: url("../Images/HTML5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 58%;
+}
+
+#png6{
+	background-image: url("../Images/CSS.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#png7{
+	background-image: url("../Images/javascript.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 62%;
+}
+
+#png8{
+	background-image: url("../Images/powershell.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#png9{
+	background-image: url("../Images/Octocat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+#png10{
+	background-image: url("../Images/solidworks.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
 
 
 
