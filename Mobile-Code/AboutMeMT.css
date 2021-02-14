@@ -110,7 +110,7 @@ img {
 .box3-content4{
     display: flex;
     align-self: center;
-    transform: translateX(88%);
+    transform: translateX(82%);
     font-family: 'Economica',sans-serif;
     font-size: 500%;
     text-decoration: underline;
@@ -128,21 +128,21 @@ img {
 .box3-content1{
     background-image: url("../Images/linked.png");
     background-position: center;
-    background-size: 70%;
+    background-size: 60%;
     background-repeat: no-repeat;
 }
 
 .box3-content2{
     background-image: url("../Images/Octocat.png");
     background-position: center;
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 
 .box3-content3{
     background-image: url("../Images/insta.png");
     background-position: center;
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 
