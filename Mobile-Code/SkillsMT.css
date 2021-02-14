@@ -55,10 +55,10 @@
 /*Grid Creation*/
 .grid-creation{
 	display: grid;
-	grid-template-columns: 100vw;
+	grid-template-columns: 100%;
 	grid-template-rows: 48vh 80vh 100vh 100vh;
 	height: 328vh;
-	width: 100vw;
+	width: 100%;
 }
 
 /*Header Content*/
@@ -79,11 +79,59 @@
     align-items: center;
 }
 
-
-
+/*Introduction Container*/
 .intro-grid{
-	background-color: khaki;
+	background-color: #88bbd6;
+    height: 100%;
+    width: 100%;
 }
+
+.intro-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#intro-header{
+    font-family: 'Economica',sans-serif;
+    text-decoration: underline;
+    font-size: 500%;
+}
+
+#intro-body{
+    font-family: 'Montserrat',sans-serif;
+    padding: 3%;
+    font-size: 280%;
+}
+
+#intro-body2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 280%;
+    padding: 3%;
+}
+
+.box-1-textlinks{
+    font-family: 'Montserrat',sans-serif;
+	text-decoration: none;
+	font-size: 280%;
+	color: #ce2029;
+    padding: 0.1%;
+
+}
+
+.box-1-textlinks:hover{
+    font-family: 'Montserrat',sans-serif;
+	text-decoration: underline;
+	font-size: 300%;
+	color:#ce2029;
+	font-style: italic;
+	font-weight: bolder;
+    padding: 0.2%;
+}
+
+
+
 
 .skills-grid{
 	background-color: black;

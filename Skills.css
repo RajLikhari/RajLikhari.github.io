@@ -455,7 +455,7 @@
 	background-image: url("./Images/javascript.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 61%;
+    background-size: 62%;
 }
 
 #png8{
@@ -476,55 +476,8 @@
 	background-image: url("./Images/solidworks.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 65%;
 }
-
-/*
-.marquee-content li {
-    width: 25%;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-	align-items: center;   
-}
-
-#png1{
-	background-image: url("./Images/C++.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#png2{
-	height: 80%;
-	width: 70%;
-}
-
-#png3{
-	height: 80%;
-	width: 70%;
-}
-
-#png4{
-	height: 80%;
-	width: 60%;	
-}
-
-#png5{
-	height: 80%;
-	width: 90%;
-}
-
-#png6{
-	height: 80%;
-	width: 70%;
-}
-
-#png7{
-	height: 85%;
-	width: 80%;
-}
-*/
 
 
 /*Navigation Menu*/
