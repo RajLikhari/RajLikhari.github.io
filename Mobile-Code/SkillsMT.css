@@ -5,6 +5,96 @@
 }
 
 
+/*This is for landscape mode*/
+@media only screen and (orientation:landscape) {
+    .hidden-MSG h1{
+        display: flex;
+        visibility: visible;
+        position: absolute;
+        font-family: 'Economica',sans-serif;
+        font-size: 80px;
+        color: black;
+        z-index: 5;
+        left: 18%;
+        margin-top: -30px;
+    }
+    body{
+        visibility: hidden;
+        background-image: url("../Images/Rotate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(105,105,105, 0.4);
+        margin-top: -800px;
+        z-index: 10;
+    }
+    .block-menu{
+        visibility: hidden;
+    }
+    .block-menu li a{
+        visibility: hidden;
+    }
+    .front, .back{
+        visibility: hidden;
+    }
+    .three-d{
+        visibility: hidden;
+    }
+}
+
+
+/*Simple modifications*/
+.hidden-MSG{
+    font-size: 0px;
+    z-index: -2;
+}
+
+#menu-Mar{
+    margin-top: 20px;
+}
+
+/*Grid Creation*/
+.grid-creation{
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows: 48vh 80vh 100vh 100vh;
+	height: 328vh;
+	width: 100vw;
+}
+
+/*Header Content*/
+.header-content{
+    font-family: 'Economica',sans-serif;
+    font-size: 730%;
+    color: #88bbd6;
+    text-shadow: 4px 4px #A9A9A9;
+    overflow: hidden;
+    font-style: italic;
+	padding: 3%;
+}
+
+.header-grid{
+	background:  #E9E9E9;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.intro-grid{
+	background-color: khaki;
+}
+
+.skills-grid{
+	background-color: black;
+}
+
+.resume-grid{
+	background-color: lightblue;
+}
+
+
+
 
 /*This is the menu code*/   
 .block-menu {

@@ -60,6 +60,19 @@
     <h1>Please Use Portrait Mode!</h1>
 </div>
 
+<!--This is for reloading the page once-->
+<script>
+
+    function reloadIt() {
+        if (window.location.href.substr(-2) !== "?r") {
+            window.location = window.location.href + "?r";
+        }
+    }
+    
+    setTimeout('reloadIt()', 1000)();
+    
+</script>
+
 <!--This is the falling snowflakes-->
 <div class="snowflakes" aria-hidden="true">
     <div class="snowflake">

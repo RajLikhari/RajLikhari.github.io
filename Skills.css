@@ -370,6 +370,7 @@
     animation: scrolling 20s linear infinite;
 }
 
+
 @keyframes scrolling {
     0% { transform: translateX(0); }
     100% {transform: translateX(-223vw); }
@@ -395,10 +396,9 @@
 	}
 	@keyframes scrolling {
 		0% { transform: translateX(0); }
-		100% {transform: translateX(-222.4vw); }
+		100% {transform: translateX(-220vw); }
 	}
 }
-
 
 
 .marquee-content li {
@@ -410,8 +410,89 @@
 }
 
 #png1{
-	height: 80%;
-	width: 80%;
+	background-image: url("./Images/C++.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#png2{
+	background-image: url("./Images/azure.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#png3{
+	background-image: url("./Images/java.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#png4{
+	background-image: url("./Images/Python.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+#png5{
+	background-image: url("./Images/HTML5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 58%;
+}
+
+#png6{
+	background-image: url("./Images/CSS.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#png7{
+	background-image: url("./Images/javascript.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 61%;
+}
+
+#png8{
+	background-image: url("./Images/powershell.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#png9{
+	background-image: url("./Images/Octocat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+#png10{
+	background-image: url("./Images/solidworks.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+/*
+.marquee-content li {
+    width: 25%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+	align-items: center;   
+}
+
+#png1{
+	background-image: url("./Images/C++.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #png2{
@@ -443,6 +524,7 @@
 	height: 85%;
 	width: 80%;
 }
+*/
 
 
 /*Navigation Menu*/
