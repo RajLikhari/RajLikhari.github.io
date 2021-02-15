@@ -197,7 +197,7 @@
     list-style-type: none;
     height: 100%;
     display: flex;
-    animation: scrolling 10s linear infinite;
+    animation: scrolling 20s linear infinite;
 }
 
 
@@ -229,7 +229,7 @@
 }
 
 #png3{
-	background-image: url("../Images/java.png");
+	background-image: url("Java.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
