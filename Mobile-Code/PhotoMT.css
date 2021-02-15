@@ -9,11 +9,9 @@
 /*This is the menu code*/   
 .block-menu {
 	display: block;
-    background: #eee;
+    background:  #E9E9E9;
     width: auto;
     text-align: center;
-    opacity: 0.5;
-    margin-top: 5px;
 }
 
 .block-menu li {
@@ -36,7 +34,7 @@
 
 /* animation domination */
 .three-d {
-	perspective: 400px;
+	perspective: 200px;
 	transition: all .07s linear;
 	position: relative;
 	cursor: pointer;
@@ -76,9 +74,13 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #eee;
+	background: #E9E9E9;
 	padding: 15px 10px;
-	color: black;
+	color: #88BBD6;
 	pointer-events: none;
     box-sizing: border-box;
+}
+
+#menu-Mar{
+	margin-top: 20px;
 }
