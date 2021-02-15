@@ -105,54 +105,44 @@ img {
     display: flex;
     height: 40%;
     width: 100%;
+    align-items: center;
 }
 
 .box3-content4{
     display: flex;
-    align-self: center;
     transform: translateX(82%);
     font-family: 'Economica',sans-serif;
     font-size: 500%;
     text-decoration: underline;
-
 }
 
-.box3-grid1{
+#box3-grid1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100%;
     height: 60%;
     width: 100%;
+    padding-left: 10%;
 }
 
-.box3-content1{
-    background-image: url("../Images/linked.png");
-    background-position: center;
-    background-size: 60%;
-    background-repeat: no-repeat;
+.box3-image1{
+    height: auto;
+    width: 60%;
 }
 
-.box3-content2{
-    background-image: url("../Images/Octocat.png");
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat;
+.box3-image2{
+    height: auto;
+    width: 70%;
+    position: relative;
+    bottom: 5%;
 }
 
-.box3-content3{
-    background-image: url("../Images/insta.png");
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat;
+.box3-image3{
+    height: auto;
+    width: 70%;
+    position: relative;
+    bottom: 9%;
 }
-
-#box3-header{
-    font-family: 'Economica',sans-serif;
-    font-size: 90px;
-    text-decoration: underline;
-
-}
-
 
 /*This is the menu code*/   
 .block-menu {
