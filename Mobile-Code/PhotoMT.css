@@ -55,6 +55,7 @@
 	grid-template-columns: 100%;
 	height: 498vh;
 	width: 100%;
+	justify-content: space-around;
 }
 
 /*Intro*/
@@ -89,7 +90,7 @@
 }
 
 .SOM-grid{
-	height: 100%;
+	height: 95%;
 	width: 100%;
 	display: grid;
 	grid-template-columns: 100%;
@@ -140,7 +141,7 @@
 }
 
 .Colo-grid{
-	height: 100%;
+	height: 95%;
 	width: 100%;
 	display: grid;
 	grid-template-columns: 100%;
@@ -190,7 +191,7 @@
 }
 
 .DC-grid{
-	height: 100%;
+	height: 95%;
 	width: 100%;
 	display: grid;
 	grid-template-columns: 100%;
@@ -202,7 +203,7 @@
 }
 
 .DCG1{
-	background-image: url("../Photos/DC/D5.jpg");
+	background-image: url("../Photos/DC/D1.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;	
@@ -216,10 +217,10 @@
 }
 
 .DCG3{
-	background-image: url("../Photos/DC/D1.jpg");
+	background-image: url("../Photos/DC/D5.jpg");
 	background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;;	
+    background-size: cover;	
 }
 
 /*This is the menu code*/   
