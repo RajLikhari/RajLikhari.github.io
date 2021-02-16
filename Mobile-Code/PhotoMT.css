@@ -51,9 +51,9 @@
 /*Grid Creation*/
 .grid-container{
 	display: grid;
-	grid-template-rows:  48vh repeat(3, 100vh);
+	grid-template-rows:  48vh repeat(3, 150vh);
 	grid-template-columns: 100%;
-	height: 348vh;
+	height: 498vh;
 	width: 100%;
 }
 
@@ -75,18 +75,152 @@
 /*Some of the best*/
 .SOM{
 	background-color: #88bbd6;
+	text-align: center;
+	height: 100%;
+	width: 100%;
 }
+
+.SOM-header{
+	font-size: 5vh;
+	font-family: 'Economica',sans-serif;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.SOM-grid{
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(3,1fr);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	gap: 15px;
+}
+
+.SOMG1{
+	background-image: url("../Photos/SOTB/D3.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SOMG2{
+	background-image: url("../Photos/SOTB/SOTB3.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.SOMG3{
+	background-image: url("../Photos/SOTB/Colo5.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+
 
 /*Colorado*/
 .Colo{
 	background-color: #E9E9E9;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.Colo-header{
+	font-size: 5vh;
+	font-family: 'Economica',sans-serif;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.Colo-grid{
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(3,1fr);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	gap: 15px;
+}
+
+.ColoG1{
+	background-image: url("../Photos/Colo/Colo1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ColoG2{
+	background-image: url("../Photos/Colo/Colo6.jpg");
+	background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ColoG3{
+	background-image: url("../Photos/SOTB/SOTB4.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
 }
 
 /*Washington DC*/
 .DC{
 	background-color: #88bbd6;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
+.DC-header{
+	font-size: 5vh;
+	font-family: 'Economica',sans-serif;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.DC-grid{
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(3,1fr);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	gap: 15px;
+}
+
+.DCG1{
+	background-image: url("../Photos/DC/D5.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.DCG2{
+	background-image: url("../Photos/DC/D6.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.DCG3{
+	background-image: url("../Photos/DC/D1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;	
+}
 
 /*This is the menu code*/   
 .block-menu {
