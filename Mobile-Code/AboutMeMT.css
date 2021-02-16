@@ -89,9 +89,10 @@ img {
 .box2-intro{
     margin-top: 20px;
     font-family: 'Economica',sans-serif;
-    font-size: 300%;
+    font-size: 3.5vh;
     text-decoration: underline;
     margin-bottom: 25px;
+    font-weight: lighter;
 }
 
 #box2-body{
@@ -112,8 +113,9 @@ img {
     display: flex;
     transform: translateX(82%);
     font-family: 'Economica',sans-serif;
-    font-size: 500%;
+    font-size: 4vh;
     text-decoration: underline;
+    font-weight: lighter;
 }
 
 #box3-grid1{
