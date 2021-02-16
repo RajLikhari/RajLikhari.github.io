@@ -84,7 +84,7 @@
 	list-style: none;
 	padding-right: 4%;
 	padding-left: 4%;
-	font-size: 1.4vh;
+	font-size: 1.5vh;
 }
 
 #project-header{
@@ -95,7 +95,7 @@
 }
 
 #project-header1{
-	font-size: 2vh;
+	font-size: 2.2vh;
 	text-decoration: underline;
 	padding-bottom: 5%;
 	padding-top: 2%;
@@ -128,7 +128,7 @@
 
 .intern-body{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 1.3vh;
+	font-size: 1.38vh;
 	padding-left: 3%;
 	padding-right: 3%;
 }
@@ -160,14 +160,14 @@
 
 .research-body{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 1.3vh;
+	font-size: 1.4vh;
 	padding-left: 3%;
 	padding-right: 3%;
 }
 
 #head{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 1.4vh;
+	font-size: 1.5vh;
 	text-decoration: none;
 	padding-left: 3%;
 	padding-right: 3%;
@@ -178,7 +178,7 @@
 
 #head:hover{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 1.5vh;
+	font-size: 1.55vh;
 	text-decoration: none;
 	padding-left: 3%;
 	padding-right: 3%;
@@ -201,7 +201,7 @@
 }
 
 .work-header1{
-	font-size: 1.4vh;
+	font-size: 2vh;
 	font-family: 'Montserrat',sans-serif;
 }
 
@@ -213,7 +213,7 @@
 
 .work-body{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 1.3vh;
+	font-size: 1.8vh;
 	padding-left: 3%;
 	padding-right: 3%;
 }

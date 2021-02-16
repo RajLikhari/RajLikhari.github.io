@@ -96,31 +96,31 @@
 #intro-header{
     font-family: 'Economica',sans-serif;
     text-decoration: underline;
-    font-size: 500%;
+    font-size: 4.5vh;
 }
 
 #intro-body{
     font-family: 'Montserrat',sans-serif;
-    padding: 3%;
-    font-size: 280%;
+    padding: 2.5%;
+    font-size: 2.1vh;
 }
 
 #intro-body2{
     font-family: 'Montserrat',sans-serif;
-    font-size: 250%;
+    font-size: 2.3vh;
 }
 
 .box-1-textlinks{
     font-family: 'Montserrat',sans-serif;
 	text-decoration: none;
-	font-size: 250%;
+	font-size: 2.3vh;
 	color: #ce2029;
 }
 
 .box-1-textlinks:hover{
     font-family: 'Montserrat',sans-serif;
 	text-decoration: underline;
-	font-size: 280%;
+	font-size: 2.4vh;
 	color:#ce2029;
 	font-style: italic;
 	font-weight: bolder;
@@ -145,7 +145,7 @@
 }
 #skills-header{
     font-family: 'Economica',sans-serif;
-    font-size: 500%;
+    font-size: 4.5vh;
     text-decoration: underline;
     padding-bottom: 2%;
 }
@@ -153,7 +153,7 @@
 .skills-text li{
     text-align: center;
     font-family: 'Montserrat',sans-serif;
-    font-size: 280%;
+    font-size: 2.3vh;
 }
 
 
@@ -299,19 +299,19 @@
 .resume-header{
     font-family: 'Economica',sans-serif;
     text-decoration: underline;
-    font-size: 500%;
+    font-size: 4.5vh;
     font-weight: lighter;
 }
 
 .resume-body{
     font-family: 'Montserrat',sans-serif;
-    font-size: 250%;
-    padding-top: 5%;
+    font-size: 2.2vh;
+    padding: 2%;
 }
 
 .act-resume{
-    height: 120%;
-    width: 170%;
+    height: auto;
+    width: 150%;
     padding-top: 2%;
     transform: translateX(-21%);
 }
