@@ -4,6 +4,88 @@
     padding: 0px;
 }
 
+@media only screen and (orientation:landscape) {
+    .hidden-MSG h1{
+        display: flex;
+        visibility: visible;
+        position: absolute;
+        font-family: 'Economica',sans-serif;
+        font-size: 80px;
+        color: black;
+        z-index: 5;
+        left: 16%;
+        margin-top: -50px;
+    }
+    body{
+        visibility: hidden;
+        background-image: url("../Images/Rotate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(105,105,105, 0.4);
+        margin-top: 100px;
+        z-index: 10;
+    }
+    .block-menu{
+        visibility: hidden;
+    }
+    .block-menu li a{
+        visibility: hidden;
+    }
+    .front, .back{
+        visibility: hidden;
+    }
+    .three-d{
+        visibility: hidden;
+    }
+}	
+
+.hidden-MSG{
+    font-size: 0px;
+    z-index: -2;
+}
+
+#menu-Mar{
+    margin-top: 20px;
+}
+
+/*Grid Creation*/
+.grid-container{
+	display: grid;
+	grid-template-rows:  48vh repeat(3, 100vh);
+	grid-template-columns: 100%;
+	height: 348vh;
+	width: 100%;
+}
+
+/*Intro*/
+.intro{
+	display: flex;
+    background:  #E9E9E9;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Economica',sans-serif;
+    font-size: 700%;
+    color: #88bbd6;
+    text-shadow: 4px 4px #A9A9A9;
+    overflow: hidden;
+    font-style: italic;
+	text-align: center;
+}
+
+/*Some of the best*/
+.SOM{
+	background-color: #88bbd6;
+}
+
+/*Colorado*/
+.Colo{
+	background-color: #E9E9E9;
+}
+
+/*Washington DC*/
+.DC{
+	background-color: #88bbd6;
+}
 
 
 /*This is the menu code*/   
