@@ -4,6 +4,49 @@
     padding: 0px;
 }
 
+@media only screen and (orientation:landscape) {
+    .hidden-MSG h1{
+        display: flex;
+        visibility: visible;
+        position: absolute;
+        font-family: 'Economica',sans-serif;
+        font-size: 80px;
+        color: black;
+        z-index: 5;
+        left: 16%;
+        margin-top: -50px;
+    }
+    body{
+        visibility: hidden;
+        background-image: url("../Images/Rotate.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(105,105,105, 0.4);
+        margin-top: 100px;
+        z-index: 10;
+    }
+    .block-menu{
+        visibility: hidden;
+    }
+    .block-menu li a{
+        visibility: hidden;
+    }
+    .front, .back{
+        visibility: hidden;
+    }
+    .three-d{
+        visibility: hidden;
+    }
+}	
+
+.hidden-MSG{
+    font-size: 0px;
+    z-index: -2;
+}
+
+#menu-Mar{
+    margin-top: 20px;
+}
 
 /*Grid Creation*/
 .grid-container{
@@ -28,6 +71,7 @@
 	text-align: center;
 }
 
+/*Project Portion*/
 .project-box{
 	background-color: #88bbd6;
 	display: flex;
@@ -38,35 +82,140 @@
 	text-align: center;
 	font-family: 'Montserrat',sans-serif;
 	list-style: none;
-	padding-right: 3%;
-	padding-left: 3%;
-	font-size: 150%;
+	padding-right: 4%;
+	padding-left: 4%;
+	font-size: 205%;
 }
 
 #project-header{
 	text-decoration: underline;
 	font-size: 500%;
 	font-family: 'Economica',sans-serif;
-	padding-bottom: 1%;
+	padding-bottom: 2%;
 }
 
 #project-header1{
-	font-size: 180%;
+	font-size: 250%;
 	text-decoration: underline;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 	padding-top: 2%;
 }
 
+
+/*Intern Portion*/
 .intern-box{
-	background-color: beige;
+	background-color: #E9E9E9;
+	text-align: center;
 }
 
+#intern-header{
+	text-decoration: underline;
+	font-size: 500%;
+	font-family: 'Economica',sans-serif;
+	padding-bottom: 2%;
+}
+
+#intern-header1{
+	font-size: 220%;
+	font-family: 'Montserrat',sans-serif;
+
+}
+
+.intern-box img{
+	height: auto;
+	width: 15%;
+}
+
+.intern-body{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 180%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+/*Research Portion*/
 .research-box{
-	background-color: blue;
+	background-color: #88bbd6;
+	text-align: center;
 }
 
+.research-header{
+	text-decoration: underline;
+	font-size: 500%;
+	font-family: 'Economica',sans-serif;
+	padding-bottom: 4%;
+}
+
+.research-header1{
+	font-size: 200%;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.research-box img{
+	height: auto;
+	width: 30%;
+	padding-bottom: 3%;
+}
+
+.research-body{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 180%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#head{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 200%;
+	text-decoration: none;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+
+#head:hover{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 220%;
+	text-decoration: none;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+
+/*Work Portion*/
 .work-box{
-	background-color: brown;
+	background-color: #E9E9E9;
+	list-style: none;
+	text-align: center;
+}
+
+.work-header{
+	text-decoration: underline;
+	font-size: 500%;
+	font-family: 'Economica',sans-serif;
+	padding-bottom: 4%;
+}
+
+.work-header1{
+	font-size: 200%;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.work-box img{
+	height: auto;
+	width: 30%;
+	padding-bottom: 3%;
+}
+
+.work-body{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 180%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 
