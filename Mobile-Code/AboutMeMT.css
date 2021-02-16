@@ -111,7 +111,7 @@ img {
 
 .box3-content4{
     display: flex;
-    transform: translateX(95%);
+    transform: translateX(100%);
     font-family: 'Economica',sans-serif;
     font-size: 4vh;
     text-decoration: underline;
