@@ -111,11 +111,12 @@ img {
 
 .box3-content4{
     display: flex;
-    transform: translateX(90%);
+    transform: translateX(95%);
     font-family: 'Economica',sans-serif;
     font-size: 4vh;
     text-decoration: underline;
     font-weight: lighter;
+    text-align: center;
 }
 
 #box3-grid1{
