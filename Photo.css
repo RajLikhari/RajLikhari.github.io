@@ -30,7 +30,7 @@
 	background-color:  #E9E9E9;
 	justify-content: center;
 	align-items: center;
-	font-size: 60px;
+	font-size: 3vw;
 	color: #88BBD6;
 	text-shadow: 2px 2px #A9A9A9;
 }
@@ -42,60 +42,11 @@
 	background-color: #88BBD6;
 	justify-content: center;
 	align-items: center;
-	font-size: 60px;
+	font-size: 3vw;
 	color: #E9E9E9;
 	text-shadow: 2px 2px #A9A9A9;
 }
 
-@media only screen and (max-width: 900px){
-    .box1-top{
-		display:flex;
-		width: 100%;
-		height: 50%;
-		background-color:  #E9E9E9;
-		justify-content: center;
-		align-items: center;
-		font-size: 35px;
-		color: #88BBD6;
-		text-shadow: 2px 2px #A9A9A9;
-	}
-	.box1-bottom{
-		display: flex;
-		width: 100%;
-		height: 50%;
-		background-color: #88BBD6;
-		justify-content: center;
-		align-items: center;
-		font-size: 35px;
-		color: #E9E9E9;
-		text-shadow: 2px 2px #A9A9A9;
-	}
-}
-
-@media only screen and (max-height: 800px){
-	.box1-top{
-		display:flex;
-		width: 100%;
-		height: 50%;
-		background-color:  #E9E9E9;
-		justify-content: center;
-		align-items: center;
-		font-size: 35px;
-		color: #88BBD6;
-		text-shadow: 2px 2px #A9A9A9;
-	}
-    .box1-bottom{
-		display: flex;
-		width: 100%;
-		height: 50%;
-		background-color: #88BBD6;
-		justify-content: center;
-		align-items: center;
-		font-size: 35px;
-		color: #E9E9E9;
-		text-shadow: 2px 2px #A9A9A9;
-	}
-}
 /*-------------------------------------------*/
 
 /* Page 2 */
@@ -137,17 +88,12 @@
 	justify-content: center;
 	align-items: center;
 	font-family: 'Economica',sans-serif;
-	font-size: 50px;
+	font-size: 2vw;
 	text-decoration: underline;
 	font-style: italic;
 	text-align: center;
+	padding: 2%;
 }
-
-@media only screen and (max-width: 1500px){
-	.box2-tg1{
-		font-size: 30px;
-	}
-}	
 
 .box2-tg2{
 	background-image: url("./Photos/SOTB/D3.jpg");
@@ -247,10 +193,11 @@
 	justify-content: center;
 	align-items: center;
 	font-family: 'Economica',sans-serif;
-	font-size: 50px;
+	font-size: 2vw;
 	text-decoration: underline;
 	font-style: italic;
 	text-align: center;
+	padding: 2%;
 }
 
 @media only screen and (max-width: 1500px){
@@ -328,18 +275,13 @@
 	justify-content: center;
 	align-items: center;
 	font-family: 'Economica',sans-serif;
-	font-size: 50px;
+	font-size: 2vw;
 	text-decoration: underline;
 	font-style: italic;
 	text-align: center;
+	padding: 2%;
 
 }
-
-@media only screen and (max-width: 1500px){
-	.box4-tg1{
-		font-size: 30px;
-	}
-}	
 
 .box4-tg2{
 	background-image: url("./Photos/DC/D1.jpg");
