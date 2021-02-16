@@ -31,7 +31,7 @@
 	background-color: #E9E9E9;
 	justify-content: center;
 	align-items: center;
-	font-size: 80px;
+	font-size: 4vw;
 	color: #88BBD6;
 	text-shadow: 2px 2px #A9A9A9;
 	
@@ -45,21 +45,10 @@
 	background-color:   #88BBD6;
 	justify-content: center;
 	align-items: center;
-	font-size: 80px;
+	font-size: 4vw;
 	color: #E9E9E9;
 	text-shadow: 2px 2px #A9A9A9;
 	
-}
-
-@media only screen and (max-width: 1000px){
-	.left-container, .right-container{
-		font-size: 40px;
-	}	
-}
-@media only screen and (max-height: 700px){
-	.left-container, .right-container{
-		font-size: 30px;
-	}	
 }
 
 /*Second Page*/
@@ -83,27 +72,10 @@
 }
 
 .left-content-container img{
-	height: 90%;
+	height: auto;
 	width: 90%;
 	padding: 10px;
 }
-
-@media only screen and (max-width: 2000px){
-	.left-content-container img{
-		height: auto;
-		width: 90%;
-		padding: 10px;
-	}
-}
-
-@media only screen and (max-height: 1500px){
-	.left-content-container img{
-		height: 75%;
-		width: auto;
-		padding-left: 10px;
-	}
-}
-
 
 .right-content-container{
 	display: flex;
@@ -123,34 +95,16 @@
 
 #right-content-header{
 	font-family: 'Economica',sans-serif;
-	font-size: 90px;
+	font-size: 4vw;
 	text-decoration: underline;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	margin-top: 20px;
 }
 
 #right-content-body{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 30px;
+	font-size: 1.7vw;
 }
-
-@media only screen and (max-width: 1500px){
-	#right-content-header{
-		font-family: 'Economica',sans-serif;
-		font-size: 70px;
-		text-decoration: underline;
-		margin-bottom: 80px;
-		margin-top: 20px;
-	}
-	
-	#right-content-body{
-		font-family: 'Montserrat',sans-serif;
-		font-size: 25px;
-	}
-	
-}
-
-
 
 
 
@@ -195,7 +149,7 @@
 	align-items: center;
 	justify-content: center;
 	font-family: 'Economica', sans-serif;
-	font-size: 50px;
+	font-size: 3vw;
 	text-decoration: underline;
 }	
 
