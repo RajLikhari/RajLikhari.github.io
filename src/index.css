@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --spacing: 2px;
+  --color-primary-black: #18181b;
+  --color-secondary-black: #27272a;
+
+  --animate-shift-right: shift-right 1s ease-in-out infinite;
+  @keyframes shift-right {
+    0%,
+    100% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }
+}
+
+@layer base {
+  * {
+    margin-block: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
