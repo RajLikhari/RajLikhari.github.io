@@ -55,18 +55,23 @@ export const PROJECTS_AND_EXPERIEMENTS_CARDS = {
 
 export const HIGH_LEVEL_CARDS = [
   {
-    icon: <GraduationCap color="white" width={25} height={25}></GraduationCap>,
+    icon: <BriefcaseBusiness color="white" width={22} height={22}></BriefcaseBusiness>,
+    title: "Career",
+    description: "Developing Java APIs and React UIs in a multi-region environment at American Express since 2022.",
+  },
+  {
+    icon: <GraduationCap color="white" width={22} height={22}></GraduationCap>,
     title: "Education",
     description: "Graduated Cum Laude from Texas A&M University in 2022 with a B.S. in Computer Engineering.",
   },
   {
-    icon: <Heart color="white" width={25} height={25}></Heart>,
+    icon: <Heart color="white" width={22} height={22}></Heart>,
     title: "Interests",
-    description: "Passionate about building beautiful designs. Love Music, Biking, Excercising, Cooking, Nature, and Cars",
+    description: "Passionate about building and being around beautifully crafted designs. Love Music, Biking, Excercising, Cooking, Nature, and Cars.",
   },
   {
-    icon: <Hammer color="white" width={25} height={25}></Hammer>,
+    icon: <Hammer color="white" width={22} height={22}></Hammer>,
     title: "Skills",
-    description: "Expert with React, Java, Javascript, Typescript, Angular, and Vert.x. Proficent with industry-grade tools such as Kafka and Kubernetes. Certified with AWS, GCP, and Azure.",
+    description: "Expert with React, Java, and Java/Typescript. Proficent with industry-grade tools such as Kafka and Kubernetes. Certified with AWS, GCP, and Azure.",
   },
 ];
