@@ -4,7 +4,7 @@ import { HIGH_LEVEL_CARDS, PROFFESSIONAL_EXPERIENCE_CARDS, PROJECTS_AND_EXPERIEM
 
 function Content() {
   return (
-    <div class="flex flex-col items-center pl-20 pr-20 pb-20 lg:pt-20">
+    <div class="flex flex-col items-center p-20">
       <div class="flex flex-wrap justify-center gap-5">
         {HIGH_LEVEL_CARDS.map((card, index) => {
           return <CardWithIcon key={index} icon={card?.icon} title={card?.title} description={card?.description}></CardWithIcon>;

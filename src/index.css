@@ -5,6 +5,7 @@
   --spacing: 2px;
   --color-primary-black: #18181b;
   --color-secondary-black: #27272a;
+  --breakpoint-xlplus: 1370px;
 
   --animate-shift-right: shift-right 1s ease-in-out infinite;
   @keyframes shift-right {

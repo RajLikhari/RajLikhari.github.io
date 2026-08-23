@@ -1,6 +1,6 @@
 function CardWithIcon({ icon = "", title = "", description = "" }) {
   return (
-    <div class="bg-zinc-800 flex flex-col rounded-md shadow-lg p-10 max-w-sm">
+    <div class="bg-zinc-800 flex flex-col rounded-md shadow-lg p-10 max-w-xs xlplus:max-w-sm">
       <div class="flex flex-row items-center">
         {icon}
         <h1 class="text-md sm:text-lg text-white font-bold ml-5">{title}</h1>

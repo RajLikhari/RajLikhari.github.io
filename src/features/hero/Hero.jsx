@@ -1,10 +1,10 @@
 function Hero() {
   return (
-    <section class="max-h-screen h-screen w-full flex justify-center items-center flex-col">
-      <img class="h-6/10 w-auto object-contain" src="/animated-figure-gray.png" />
+    <section class="h-full w-full flex justify-center items-center flex-col">
+      <img class="max-h-250 lg:max-h-6/10 lg:h-6/10 w-auto object-contain" src="/animated-figure-gray.png" />
       <div class="mt-10 flex flex-col items-center">
         <h2 class="text-white text-sm sm:text-lg">Hi there, I'm</h2>
-        <h1 class="font-bold text-white text-5xl sm:text-8xl text-center">Raj Likhari</h1>
+        <h1 class="font-bold text-white text-5xl sm:text-7xl text-center">Raj Likhari</h1>
         <h2 class="text-sm sm:text-lg text-white bg-zinc-800 rounded-md shadow-lg p-5 mt-10 text-center">Software Engineer II @ American Express</h2>
         <div class="flex items-center gap-4 mt-4">
           <span class="relative flex h-5 w-5">

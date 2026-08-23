@@ -2,7 +2,10 @@ import { ArrowRight } from "lucide-react";
 
 function DetailedCard({ title = "", subtitle = "", footer = "", description = "", href = "" }) {
   return (
-    <div class={`bg-zinc-800 flex flex-col rounded-md shadow-lg p-10 max-w-sm group ${href ? "hover:bg-zinc-700 cursor-pointer" : ""}`} onClick={() => href && window.open(href, "_blank")}>
+    <div
+      class={`bg-zinc-800 flex flex-col rounded-md shadow-lg p-10 max-w-xs xlplus:max-w-sm group ${href ? "hover:bg-zinc-700 cursor-pointer" : ""}`}
+      onClick={() => href && window.open(href, "_blank")}
+    >
       <div class="flex flex-row justify-between items-center">
         <div class="flex flex-col">
           <h1 class="text-md sm:text-lg text-white font-bold">{title}</h1>
